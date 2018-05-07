@@ -1,0 +1,19 @@
+VERSION = 1.2.0-0
+IMAGE = dpe/dpe
+
+all:
+
+image:
+	docker build -t $(IMAGE):$(VERSION) .
+	docker tag $(IMAGE):$(VERSION) $(IMAGE):latest
+
+rmi:
+	docker rmi $(IMAGE):$(VERSION) $(IMAGE):latest
+
+test:
+	docker run --rm -ti $(IMAGE) sh
+
+# Publish only if you are image owner
+publish:
+	docker push $(IMAGE):$(VERSION)
+	docker push $(IMAGE):latest

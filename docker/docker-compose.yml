@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+
+  dpe-server:
+    image: dpe/dpe
+    command: dpe-server
+    ports:
+      - 12346:12346
+      - 81:80
+
+  dpe-worker:
+    image: dpe/dpe
+    command: dpe-worker -H dpe-server
+    ports:
+      - 82:80
