@@ -1,5 +1,5 @@
 const t = require('tape');
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 t.test('parallelize', function (t) {
   t.plan(1);

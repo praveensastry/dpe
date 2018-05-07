@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 // const s = sc.range(20).stream({gzip: true});
 //const s = sc.range(20).stream();
 const s = sc.range(20).stream({end: true});

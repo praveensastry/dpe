@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 sc.parallelize([ 1, 2, 3, 1, 4, 3, 5 ]).
   distinct().

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 //sc.range(900).save('/tmp/truc', {gzip: true}, (err, res) => {
 //sc.range(900).save('/tmp/truc', {stream: true}, (err, res) => {

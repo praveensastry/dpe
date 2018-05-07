@@ -1,5 +1,5 @@
 const t = require('tape');
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 t.test('cartesian', function (t) {
   const data = [1, 2, 3, 4, 5, 6];

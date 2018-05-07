@@ -1,5 +1,5 @@
 const t = require('tape');
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 function by2(a, args) {return a * 2 * args.bias;}
 function sum(a, b) {return a + b;}

@@ -1,7 +1,7 @@
 process.env.dpe_RANDOM_SEED = 1;
 
 const t = require('tape');
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 const ml = require('dpe/ml');
 
 t.test('kmeans', function (t) {

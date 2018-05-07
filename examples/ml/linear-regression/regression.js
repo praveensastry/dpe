@@ -4,7 +4,7 @@
 
 (async function main() {
 
-  const sc = require('dpe').context();
+  const sc = require('@praveensastry/dpe').context();
   const ml = require('dpe/ml');
 
   const labelFeatures = sc.textFile(__dirname + '/sample_linear_regression_data.txt')

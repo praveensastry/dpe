@@ -1,5 +1,5 @@
 const t = require('tape');
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 const data = [['world', 2], ['cedric', 3], ['hello', 1]];
 const nPartitions = 2;

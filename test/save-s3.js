@@ -1,6 +1,6 @@
 const t = require('tape');
 const aws = require('aws-sdk');
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 const skip = process.env.CI || (process.env.AWS_ACCESS_KEY_ID ? false : true);
 const s3 = skip ? null : new aws.S3({httpOptions: {timeout: 3600000}, signatureVersion: 'v4'});

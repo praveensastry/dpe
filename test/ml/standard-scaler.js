@@ -1,5 +1,5 @@
 const t = require('tape');
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 const ml = require('dpe/ml');
 
 t.test('standard scaler', function (t) {

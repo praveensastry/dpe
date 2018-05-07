@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 const stream = fs.createReadStream(__dirname + '/kv.data');
 

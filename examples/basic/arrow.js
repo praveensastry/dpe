@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 sc.range(6).map((a) => a*a).reduce((a,b) => a+b, 0)
   .then(function (res) {

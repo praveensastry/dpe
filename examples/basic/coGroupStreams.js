@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const fs = require('fs');
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 const s1 = sc.lineStream(fs.createReadStream(__dirname + '/kv.data')).map(line => line.split(' '));
 const s2 = sc.lineStream(fs.createReadStream(__dirname + '/kv2.data')).map(line =>line.split(' '));

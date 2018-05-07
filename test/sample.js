@@ -1,7 +1,7 @@
 process.env.dpe_RANDOM_SEED = 'dpe';
 
 const t = require('tape');
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 t.test('sample', function (t) {
   t.plan(1);

@@ -1,6 +1,6 @@
 const t = require('tape');
 const azure = require('azure-storage');
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 const skip = process.env.CI || (process.env.AZURE_STORAGE_CONNECTION_STRING ? false : true);
 const retry = new azure.ExponentialRetryPolicyFilter();

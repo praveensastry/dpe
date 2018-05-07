@@ -1,7 +1,7 @@
 const fs = require('fs');
 const t = require('tape');
 const rimraf = require('rimraf');
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 const savedir = '/tmp/dpe-test/save';
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 const data = [
   ['hello', [12, 'param1', 'param2']],

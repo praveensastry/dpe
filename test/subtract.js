@@ -1,5 +1,5 @@
 const t = require('tape');
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 const d1 = [[1, 1], [1, 1], [2, 3], [2, 4], [3, 5]];
 const d2 = [[1, 1], [1, 1], [2, 3]];

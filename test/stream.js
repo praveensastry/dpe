@@ -1,7 +1,7 @@
 const stream = require('stream');
 const zlib =  require('zlib');
 const t = require('tape');
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 t.test('stream', function (t) {
   t.plan(2);

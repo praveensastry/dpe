@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 const input = sc.textFile('s3://dpe-demo/datasets/*-ny.json.gz');
 //const input = sc.textFile('s3://dpe-demo/datasets/restaurants-ny.json.gz');
 //const input = sc.textFile('s3://dpe-demo/datasets/restaurants-ny.json');

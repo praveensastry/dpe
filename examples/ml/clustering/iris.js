@@ -4,7 +4,7 @@
 
 (async function main() {
 
-  const sc = require('dpe').context();
+  const sc = require('@praveensastry/dpe').context();
   const ml = require('dpe/ml');
 
   const rawdata = sc.textFile(__dirname + '/iris.csv');

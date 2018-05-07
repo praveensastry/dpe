@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 function reducer(a, b) {a.push(b); return a;}
 function combiner(a, b) {return a.concat(b);}

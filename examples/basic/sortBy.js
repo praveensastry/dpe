@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 const data = [4, 6, 10, 5, 1, 2, 9, 7, 3, 0];
 const nPartitions = 3;

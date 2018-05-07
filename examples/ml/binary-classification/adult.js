@@ -11,7 +11,7 @@
   // - evaluate the model on the adult test set
   // - generate ROC curves as png images
 
-  const sc = require('dpe').context();
+  const sc = require('@praveensastry/dpe').context();
   const ml = require('dpe/ml');
   const plot = require('plotter').plot;     // Todo: should be replaced by D3
 

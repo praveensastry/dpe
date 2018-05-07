@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 sc.parallelize([1, 2, 3, 4], 2)
   .take(2).then(function(res) {

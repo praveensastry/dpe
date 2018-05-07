@@ -25,7 +25,7 @@ npm install dpe
 Word count example: 
 
 ```javascript
-var sc = require('dpe').context();
+var sc = require('@praveensastry/dpe').context();
 
 sc.textFile('/my/path/*.txt')
   .flatMap(line => line.split(' '))

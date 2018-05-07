@@ -1,5 +1,5 @@
 const t = require('tape');
-const sc = require('dpe').context();
+const sc = require('@praveensastry/dpe').context();
 
 const skip = process.env.AWS_ACCESS_KEY_ID ? false : true;
 

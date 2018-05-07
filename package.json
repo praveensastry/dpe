@@ -1,5 +1,5 @@
 {
-  "name": "dpe",
+  "name": "@praveensastry/dpe",
   "version": "1.2.1",
   "license": "Apache-2.0",
   "description": "parallel and distributed data processing engine",
